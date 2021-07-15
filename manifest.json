@@ -12,6 +12,11 @@
 		"bin-debug/LoadingUI.js",
 		"bin-debug/Main.js",
 		"bin-debug/Platform.js",
-		"bin-debug/ThemeAdapter.js"
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/cellHit/Ball.js",
+		"bin-debug/cellHit/CollisionGrid.js",
+		"bin-debug/cellHit/GridCollision.js",
+		"bin-debug/cellHit/GridCollision2.js",
+		"bin-debug/cellHit/GridCollision3.js"
 	]
 }
