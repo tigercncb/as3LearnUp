@@ -113,7 +113,10 @@ class Vector2D{
     public sign(v2:Vector2D):number{
         return this.perp.dotProd(v2)<0?-1:1;
     }
-    
+    dotProd(v2:Vector2D):number
+    {
+        return this._x*v2.x+this._y*v2.y
+    }
     //返回坐标向量
     public get perp():Vector2D{
     return new Vector2D(-this.y,this.x);
