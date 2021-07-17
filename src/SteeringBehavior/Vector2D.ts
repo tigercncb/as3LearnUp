@@ -54,7 +54,7 @@ class Vector2D{
     
     //设置向量的方法
     public set angle(value:number){
-    let len=length;
+    let len=this.length;
     this._x=Math.cos(value)*len;
     this._y=Math.sin(value)*len;
     }
